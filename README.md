@@ -30,7 +30,7 @@
 
 #### 1.1.2 Angular组件
 
-* Angular组件通信
+* [AngularJS 中 Controller 之间的通信](https://github.com/huangtengfei/blog/issues/8)
 
 
 
@@ -48,7 +48,7 @@
 
 ## 二、原生JavaScript
 
-
+* [Javascript 单线程](https://github.com/elevensky/myblog/issues/15)
 
 
 
@@ -67,3 +67,16 @@ echarts.js
 ## 五、版本管理
 
 * git
+
+
+
+
+
+***
+
+
+
+## 联系方式
+
+* email：`threetowns@163.com`
+* qq: `1223930438`
