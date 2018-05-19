@@ -49,6 +49,7 @@
 ## 二、原生JavaScript
 
 * [Javascript 单线程](https://github.com/elevensky/myblog/issues/15)
+* [阮一峰 - 什么是 Event Loop？](http://www.ruanyifeng.com/blog/2013/10/event_loop.html)
 
 
 
