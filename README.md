@@ -14,6 +14,7 @@
 >   * 图表类：`echarts`、`threejs`、`d3.js`、`webGL`
 >   * 地图类：`NPGIS`、`高德地图`
 >   * 播放器：`ocx`
+> * Handlebars
 > * 其它
 >   * 版本管理工具：`git`
 
