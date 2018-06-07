@@ -1,77 +1,48 @@
-# 前端学习资料整理
+# NPGIS
 
-> 主要包含以下几个方向：
->
-> * 前端界三大主流 `MVC/VM` 框架
->   * `Angular 1.x`
->   * `ReactJS`
->   *  `VueJS`
-> * 原生Javascript相关
->   * ES6
->   * jquery源码
->   * 前端面试
-> * 大数据方向：
->   * 图表类：`echarts`、`threejs`、`d3.js`、`webGL`
->   * 地图类：`NPGIS`、`高德地图`
->   * 播放器：`ocx`
-> * Handlebars
-> * 其它
->   * 版本管理工具：`git`
+* `mapConfig.json`
 
+  ```json
+  {
+      "mapOpts":
+      {
+          "minZoom": 10,   // 最小级别，根据实际切片的级数来确定
+          "maxZoom": 18,   // 最大级别，根据实际切片的级数来确定
+          "defaultZoom":18,
+          "centerPoint": [121.46954675546338,30.919911396365844],  //中心点坐标
+          "restrictedExtent": [   // 抓图工具设置的抓图范围
+              13478926.539104,3595651.244330,
+              13576307.31314,3669642.2877104
+          ],
+          "projection": "EPSG:900913"   //投影方式：900913
+      },
+      "vectorLayer": [
+          {
+              "layerName": "shanghaiBaseMap1",
+              "layerType": "NPMapLib.Layers.GaoDeLayer",
+              "layerOpt":
+              {
+                  "url": ["http://172.19.59.8:25003/v3/tile?x=${x}&y=${y}&z=${z}"],
+                  "centerPoint": [121.46954675546338,30.919911396365844],
+                  "isBaseLayer": true                
+              }
+          },
+          {
+              "layerName": "shanghaiBaseMap2",
+              "layerType": "NPMapLib.Layers.GaoDeLayer",
+              "layerOpt":
+              {
+                  "url": ["http://172.19.59.8:25033/v3/tile?x=${x}&y=${y}&z=${z}"],
+                  "isBaseLayer": false,
+                  "centerPoint": [121.46954675546338,30.919911396365844]
+              }
+          }
+      ],
+      "sattilateLayer": []
+  }
+  ```
 
-
-## 一、前端三大框架
-
-### 1.1 Angular 1.x
-
-#### 1.1.1 Angular 1.x 常用技术方案
-
-* `Angular 1.x` + `RequireJS`
-
-
-
-#### 1.1.2 Angular组件
-
-* [AngularJS 中 Controller 之间的通信](https://github.com/huangtengfei/blog/issues/8)
-
-
-
-### 1.2 React
-
-#### 1.2.1 原理
-
-* 虚拟DOM、DIFF算法
-
-### 1.3 Vue
-
-* [vue之前后端分离]()
-
-
-
-## 二、原生JavaScript
-
-* [Javascript 单线程](https://github.com/elevensky/myblog/issues/15)
-* [阮一峰 - 什么是 Event Loop？](http://www.ruanyifeng.com/blog/2013/10/event_loop.html)
-
-
-
-## 三、图表
-
-echarts.js
-
-
-
-## 四、地图
-
-> 地图服务、瓦片服务
-
-
-
-## 五、版本管理
-
-* git
-
-
+  
 
 
 
