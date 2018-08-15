@@ -18,6 +18,17 @@
 > * 其它
 >   * 版本管理工具：`git`
 
+# Axure资源
+* [Ant Design之Axure组件库](https://library.ant.design/)
+* [帮助文档](https://www.yuque.com/il5cox/ii7fzy)
+
+# 设计资源
+* [Ant Design设计语言](https://ant.design/docs/spec/introduce-cn)
+* [微信小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/)
+* [AntV 数据可视化设计原则](https://antv.alipay.com/zh-cn/vis/design/index.html)
+* [AntV 颜色使用原则](http://antvis.github.io/vis/doc/design/principle/color.html)
+
+***
 
 
 ## 一、前端三大框架
