@@ -28,6 +28,9 @@
 * [AntV 数据可视化设计原则](https://antv.alipay.com/zh-cn/vis/design/index.html)
 * [AntV 颜色使用原则](http://antvis.github.io/vis/doc/design/principle/color.html)
 
+# 动效
+* [Ant Motion](https://motion.ant.design/language/basic)
+
 # 资源
 * [sketch中文](http://www.sketchcn.com)
 * [antv](https://antv.alipay.com/zh-cn/vis/resource/index.html)
