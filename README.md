@@ -31,9 +31,11 @@
 # 动效
 * [Ant Motion](https://motion.ant.design/language/basic)
 
-# 资源
+# sketch资源
 * [sketch中文](http://www.sketchcn.com)
 * [antv](https://antv.alipay.com/zh-cn/vis/resource/index.html)
+https://ant.design/docs/spec/download-cn
+http://www.sketchcn.com/sketch-chinese-user-manual.html
 ***
 
 
