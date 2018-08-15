@@ -27,6 +27,9 @@
 * [微信小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/)
 * [AntV 数据可视化设计原则](https://antv.alipay.com/zh-cn/vis/design/index.html)
 * [AntV 颜色使用原则](http://antvis.github.io/vis/doc/design/principle/color.html)
+* [蚂蚁金服Web设计指引](https://design.alipay.com/design/web/principle)
+* [蚂蚁金服Mobile设计指引](https://design.alipay.com/design/mobile/easy)
+* [蚂蚁金服设计模板](https://design.alipay.com/resource)
 
 # 动效
 * [Ant Motion](https://motion.ant.design/language/basic)
