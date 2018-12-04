@@ -3,6 +3,7 @@
 > 主要包含以下几个方向：
 >
 > * 前端界三大主流 `MVC/VM` 框架
+>   * `KnockoutJS`
 >   * `Angular 1.x`
 >   * `ReactJS`
 >   *  `VueJS`
@@ -12,8 +13,10 @@
 >   * 前端面试
 > * 大数据方向：
 >   * 图表类：`echarts`、`threejs`、`d3.js`、`webGL`
->   * 地图类：`NPGIS`、`高德地图`
->   * 播放器：`ocx`
+>   * 地图类：`ArcGIS`、`OpenLayers`、`GeoJSON`
+> * 前端自动化   
+>   * `bower`、`gulp`、`request.js`
+>   * `webpack`
 > * Handlebars
 > * 其它
 >   * 版本管理工具：`git`
